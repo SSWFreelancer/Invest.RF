@@ -726,7 +726,7 @@ a {
   background: url("../img/header/arrow.svg") 0 0/100% 100% no-repeat;
 }
 .menu__sublist-other > b:after {
-  content: "";
+  
   position: absolute;
   bottom: 0px;
   z-index: 2;
@@ -5195,6 +5195,8 @@ a {
   display: flex;
   flex-direction: column;
   gap: 15px;
+
+  display: none;
 }
 @media (max-width: 1625px){
   .tab__aside{
